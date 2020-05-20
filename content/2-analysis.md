@@ -35,9 +35,7 @@ Voyant Tools is a modular online tool set for visualizing one or many documents.
 
 - Variety of tools for reading, finding, analyzing and visualizing digital texts
 - No installation or login are required, and you can work with texts in a wide variety of formats (plain text, PDF, XML, MS Word, RTF, etc.)
-- Open-source and a work in progress, it may not always work as intended and it's best to approach all observations with some circumspection
-
-Voyant Tools is intended as a tool for exploration and to assist with interpretative practices, it is not intended to tell you what questions to ask or to provide irrefutable results, though you may notice some interesting things and you may be led to construct some compelling interpretations while using it.
+- Best to think of as "exploratory," just one piece of a larger research process and a way to spark questions
 
 {% capture text %}
 #### Activity: Word Frequency in *Walden*
@@ -47,12 +45,6 @@ Voyant Tools is intended as a tool for exploration and to assist with interpreta
 3. After uploading your text, you should see a screen with three tool panels along the top and two tool panels along the bottom:
 
 {% include figure.html img="voyant-interface.jpg" alt="voyant interface" width="75%" %}
-
-- [Cirrus](https://voyant-tools.org/docs/#!/guide/cirrus): a kind of word cloud showing the most frequent terms
-- [Reader](https://voyant-tools.org/docs/#!/guide/reader): an efficient corpus reader that fetches segments of text as you scroll
-- [Trends](https://voyant-tools.org/docs/#!/guide/trends): a distribution graph showing terms across the corpus (or terms within a document)
-- [Summary](https://voyant-tools.org/docs/#!/guide/summary): a tool that provides a simple, textual overview of the current corpus
-- [Contexts](https://voyant-tools.org/docs/#!/guide/contexts): a concordance that shows each occurrence of a keyword with a bit of surrounding context
 
 "Summary" at the bottom-left and "Cirrus" at the top-left give us the top five most frequent words in the text:
 
@@ -134,7 +126,7 @@ To see how many times words appear in close proximity to each other, you can als
 
 Voyant has a robust [documentation](http://docs.voyant-tools.org/tools/){:target='_blank'}. 
 In it, you'll find a lot of tools listed that don't appear on the landing page. 
-You can access these tools by hovering your cursor over the upper right-hand corner of each
+You can access these tools by hovering your cursor over the grid icon in the upper right-hand corner of each tool box.
 
 ---
 
@@ -167,6 +159,7 @@ Sample Corpuses:
 
 Want to compare similarities between your words' contexts? 
 Visualizing your text using a word tree can help with this. 
+
 A word tree is a visual search tool for text that groups the various patterns that exist in the text that comes after your chosen word or phrase. 
 The contexts are arranged in a tree-like branching structure to reveal recurrent themes and phrases. 
 The results can be at times unsurprising and at other times revealing, leading to further research. 
