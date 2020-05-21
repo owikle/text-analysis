@@ -140,7 +140,7 @@ A good resource for learning regular expressions is [RegExr](https://regexr.com/
 2. Using the Find and Replace function on your editor, replace all instances of this text pattern.
 
 **Remove multi-word titles:**
-- `([A-Z]+\s)+([A-Z]+\W)+`
+- `[A-Z]+\s+[A-Z]+\W+`
 
 **Remove single word titles and page numbers:**
 - `[A-Z]+\W\s\d+`
